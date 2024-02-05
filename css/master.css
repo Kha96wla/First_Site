@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@300;400&family=Poppins&family=Russo+One&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.container {
+    background-color: white;
+    width: 80%;
+    margin-left: 20px;
+    
+    
+}
+
+/* start header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+    margin: 15px;
+}
+.logo {
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 50px;
+}
+header ul {
+    width: 35%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 13px;
+    padding-right: 55px;
+}
+
+/* end header */
+
+/* Start Services */
+.service {
+    background-color: #f6f6f6;
+    padding: 35px 15px;
+    margin: 15px;
+    text-align: center;
+}
+.service h4 {
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+.service h4 span {
+    color: #04a9f4;
+}
+.service p {
+    padding-left:60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 990px;
+    line-height: 1.6;
+}
+/* End Services */
+/* Start Images */
+.images img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    margin-left: 150px;
+    padding-right: -60px;
+}
+.images .midle img {
+    margin-left: 108px;
+}
+.images .left img {
+    margin-bottom: 10px;
+}
+.images {
+    padding: 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images div {
+    margin: 0 20px;
+    
+}
+.images h5 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+.images p {
+    color: #c4bebb;
+    text-align: center;
+    font-size: 13px;
+    margin: 0 15px;
+    margin-left: 40px;
+}
+
+/* End Images */
+/* Start About */
+.about {
+    padding: 35px 15px;
+    padding-bottom: 10px;
+    margin: 15px ;
+    background-color: #f6f6f6;
+    display: flex;
+    
+}
+.about img {
+    background-image: linear-gradient(#f6f6f6);
+    width: 1500px;
+    margin-left: 100px;
+    padding: 15px;
+    padding-bottom: 0;
+    background-color: #f6f6f6;
+}
+.about .for_flex {
+    margin-left: 15px;
+    padding: 15px;
+    padding-bottom: 0;
+}
+.about .for_flex h5 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.about .for_flex p {
+    max-width: 87%;
+    font-size: 13px;
+    line-height: 1.5;
+}
+/* Start Rectangle Divs */
+.rectangle {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.rectangle div {
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+    
+}
+.rectangle .first {
+    background-color: #b33939;
+    
+}
+.rectangle .second {
+    background-color: #227093;
+}
+.rectangle .third {
+    background-color: #218c74;
+}
+
+.rectangle .first div,
+.rectangle .second div,
+.rectangle .third div {
+    text-align: center;
+    margin-left: -5px;
+    font-size: 40px;
+   
+    
+}
+.rectangle .first p,
+.rectangle .second p,
+.rectangle .third p {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+/* End Rectangle Divs */
+/* Start Skills */
+.skills {
+    background-color: #f6f6f6;
+    margin: 15px;
+    margin-bottom: 0;
+    padding: 35px;
+    padding-bottom: 15px;
+}
+.skills ul {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 150px;
+    font-size: 13px;
+    font-weight: bold;
+    
+    
+}
+.skills ul li {
+    margin-bottom: 30px;
+}
+.skills ul .three {
+    margin-left: -43px;
+}
+.skills ul .five {
+    margin-left: -21px;
+}
+.skills ul .one {
+    margin-left: -8px;
+}
+.skills ul .four {
+    margin-left: -2px;
+}
+.skills ul li span {
+    background-color: white;
+    color: transparent;
+    padding: 8px;
+    margin-bottom: 30px;
+    margin-left: 8px;
+    position: relative;
+}
+.skills ul li span::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #03a9f4;
+}
+.skills ul li .one_1::before {
+    width: 60%;
+}
+.skills ul li .one_1::after {
+    content: "60%";
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    right: 41%;
+}
+.skills ul li .one_2::before {
+    width: 70%;
+}
+.skills ul li .one_2::after {
+    content: "70%";
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    right: 31%;
+}
+.skills ul li .one_3::before {
+    width: 80%;
+}
+.skills ul li .one_3::after {
+    content: "80%";
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    right: 21%;
+}
+.skills ul li .one_4::before {
+    width: 65%;
+}
+.skills ul li .one_4::after {
+    content: "65%";
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    right: 36%;
+}
+.skills ul li .one_5::before {
+    width: 90%;
+}
+.skills ul li .one_5::after {
+    content: "90%";
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    right: 11%;
+}
+.skills h5 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/* End Skills */
+/* Start Footer */
+footer {
+    margin: 15px;
+    padding: 15px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    margin-top: 0;
+    color: white;
+    font-size: 10px;
+}
+footer .left_side {
+    margin-left: 70px;
+}
+footer .left_side span {
+    color: #265ab4;
+}
+footer .right_side {
+    margin-right: 70px;
+}
+/* End Footer */
+
+
+
+
+
+/* Start About */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
